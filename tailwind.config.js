@@ -37,6 +37,9 @@ module.exports = {
      
           'hero-main': '56px',
         },
+        minheight:{
+          card : '372px',
+        },
       
     },
   },

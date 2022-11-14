@@ -4,7 +4,7 @@ import Logo from '../images/Metabnb.png'
 function Nav() {
   return (
     <div className='container text-blacktext'>
-        <div className='h-24 flex flex-row items-center justify-between'> 
+        <div className='h-24 hidden lg:flex flex-row items-center justify-between'> 
             <div> 
                 <img src={Logo} alt='Logo'/>
             </div>
