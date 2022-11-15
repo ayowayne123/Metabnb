@@ -5,7 +5,7 @@ import {BsFacebook, BsTwitter, BsInstagram} from "react-icons/bs";
 function Footer() {
   return (
    <div className='bg-[#1D1D1E]  '> 
-    <div className='container h-80 grid grid-cols-4 text-white items-center font-normal text-sm '> 
+    <div className='container min-h-80 grid lg:grid-cols-4 grid-cols-2 gap-6 text-white items-center font-normal text-sm '> 
     <span>
     <div className='my-10'> 
                 <img src={Logowhite} alt='Logo'/>

@@ -12,7 +12,7 @@ import card8 from '../../images/cards_Images/image8.png'
 function Inspiration() {
   return (
     <div className='container'>
-        <span className='flex py-9 justify-center text-5xl text-black font-bold text-center'> 
+        <span className='flex py-9 justify-center text-2xl md:text-5xl text-black font-bold text-center'> 
         Inspiration for your next adventure</span>
 
         <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-6 mb-12'>
