@@ -21,7 +21,7 @@ import sort from '../images/sort.svg'
 function Place() {
   return (
     <div className='container text-blacktext'> 
-    <div className='flex flex-row justify-between my-10 whitespace-nowrap gap-4 hover:text-black items-center overflow-scroll'>
+    <div className='flex flex-row justify-between my-10 whitespace-nowrap gap-4 no-scrollbar  scroll-smooth hover:text-black items-center overflow-scroll'>
         <span>Restaurant </span> 
         <span>Cottage </span>
         <span>Castle </span>
