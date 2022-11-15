@@ -6,6 +6,7 @@ import WalletConnectlogo from '../images/WalletConnectlogo.png'
 
 function Wallet({open,onClose}) {
 
+
     if(!open) return null
   return (
     <div onClick={onClose} className='fixed flex flex-col justify-center z-10 h-screen w-full bg-[#00000059] top-0 left-0 right-0 overflow-hidden'>

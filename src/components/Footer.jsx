@@ -1,9 +1,17 @@
 import React from 'react'
+import Logowhite from '../images/metabnbwhite.png'
+import {BsFacebook, BsTwitter, BsInstagram} from "react-icons/bs";
 
 function Footer() {
   return (
-    <div className='bg-[#1D1D1E] h-80 grid grid-cols-4 text-white font-normal text-sm items-center'> 
-    <span> </span>
+   <div className='bg-[#1D1D1E]  '> 
+    <div className='container h-80 grid grid-cols-4 text-white items-center font-normal text-sm '> 
+    <span>
+    <div className='my-10'> 
+                <img src={Logowhite} alt='Logo'/>
+            </div> 
+            <span className='flex flex-row items-center pb-16 gap-4 text-xl'> <BsFacebook/> <BsInstagram/> <BsTwitter/> </span>
+            <span className='text-md'> &copy; 2022 Metabnb </span></span>
     <span className='flex flex-col gap-3'>
     <span className='font-bold text-lg'> Community</span>
     <span>Nft </span>
@@ -26,6 +34,7 @@ function Footer() {
     <span>career </span>
     <span>Contact us</span>
        </span>
+    </div>
     </div>
   )
 }
