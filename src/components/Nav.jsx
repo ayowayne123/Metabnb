@@ -12,10 +12,10 @@ function Nav() {
                 <img src={Logo} alt='Logo'/>
             </div>
             <div className='flex text-xl flex-row justify-around gap-x-12'> 
-            <span>Home </span>
-            <span>Place to stay </span>
-            <span>NFTs</span>
-            <span>Community </span>
+            <a href='/'>Home </a>
+            <a href='/Place'>Place to stay </a>
+            <a href=' '>NFTs</a>
+            <a href=' '>Community </a>
 
             </div>
             <div> 

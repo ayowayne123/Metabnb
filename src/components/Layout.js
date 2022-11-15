@@ -4,11 +4,11 @@ import Footer from './Footer'
 
 function Layout({children}) {
   return (
-    <>
+    <div className='min-h-screen flex flex-col justify-between'>
     <Nav/>
-    {children}
+    <div className='min-h-[calc(100vh-32rem)]'>{children}  </div>
     <Footer/>
-    </>
+    </div>
   )
 }
 
