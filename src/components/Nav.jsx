@@ -11,7 +11,7 @@ function Nav() {
   return (
     <div className='container text-blacktext'>
         <div className='h-24 hidden lg:flex flex-row items-center justify-between'> 
-            <div> 
+            <div href='/'> 
                 <img src={Logo} alt='Logo'/>
             </div>
             <div className='flex text-xl flex-row justify-around gap-x-12'> 

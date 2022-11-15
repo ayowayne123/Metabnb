@@ -7,9 +7,9 @@ function Footer() {
    <div className='bg-[#1D1D1E]  '> 
     <div className='container min-h-80 grid lg:grid-cols-4 grid-cols-2 gap-6 text-white items-center font-normal text-sm '> 
     <span>
-    <div className='my-10'> 
+    <a href='/' className='my-10'> 
                 <img src={Logowhite} alt='Logo'/>
-            </div> 
+            </a> 
             <span className='flex flex-row items-center pb-16 gap-4 text-xl'> <BsFacebook/> <BsInstagram/> <BsTwitter/> </span>
             <span className='text-md'> &copy; 2022 Metabnb </span></span>
     <span className='flex flex-col gap-3'>
