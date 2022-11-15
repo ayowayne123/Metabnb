@@ -13,7 +13,7 @@ function Nav() {
             </div>
             <div className='flex text-xl flex-row justify-around gap-x-12'> 
             <a href='/'>Home </a>
-            <a href='/Place'>Place to stay </a>
+            <a href='/place'>Place to stay </a>
             <a href=' '>NFTs</a>
             <a href=' '>Community </a>
 
