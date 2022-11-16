@@ -15,7 +15,7 @@ function Home() {
     <div className='container'>
       <div>   <span className='block lg:hidden font-normal text-3xl md:text-4xl 2xl:text-hero-main xl:text-5xl xl:leading-5xl '> Rent a <span className='font-bold text-pinktext'>Place</span> away from <span className='font-bold text-pinktext'>Home
       </span> in the <span className='font-bold text-pinktext'>Metaverse</span></span></div>
-        <div className='py-3 grid lg:grid-cols-2  w-full lg:h-[calc(100vh-6rem)] items-center text-blacktext'>
+        <div className='pb-6 grid lg:grid-cols-2  w-full lg:h-[calc(100vh-6rem)] items-center text-blacktext'>
             <div className=' flex flex-col text-left h-full w-full justify-center gap-12'> 
             <span className='hidden lg:block font-normal text-3xl 2xl:text-hero-main xl:text-5xl xl:leading-5xl '> Rent a <span className='font-bold text-pinktext'>Place</span> away from <span className='font-bold text-pinktext'>Home</span> in the <span className='font-bold text-pinktext'>Metaverse</span></span>
             <span className='lg:text-2xl'> we provide you access to luxury and affordable houses in the metaverse, 

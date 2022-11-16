@@ -26,7 +26,7 @@ function Burger({open,onClose}) {
 
             </div>
             <div> 
-                <button onClick={()=> [setWalletOpen(true),{onClose}] } className='py-4 px-7 bg-white text-base font-bold text-pink-700 rounded-xl'> Connect wallet</button>
+                <button onClick={()=> {setWalletOpen(true)  }} className='py-4 px-7 bg-white text-base font-bold text-pink-700 rounded-xl'> Connect wallet</button>
                 <Wallet open={walletOpen} onClose={()=>setWalletOpen(false)}/>
             </div> </span>
         
